@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/remember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="คุณจำคำศัพท์ได้แล้ว"
+            android:textAlignment="viewStart"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:clickable="true"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="75sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="คำ"
+            android:textAlignment="textEnd"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/new_remember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="จำศัพท์ใหม่"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/new5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="5 คำ"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/new6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="6 คำ"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/new7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="7 คำ"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/old_remember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="จำศัพท์ที่ยังจำไม่ได้"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/old5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="5 คำ"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/old6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="6 คำ"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/old7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="7 คำ"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

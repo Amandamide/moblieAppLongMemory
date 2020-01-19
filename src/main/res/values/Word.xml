@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="Vocab_demo">
+        <item>A แอ้น มด</item>
+        <item>B เบิร์ด นก</item>
+        <item>C แคท แมว</item>
+        <item>D ด็อก สุนัข</item>
+        <item>E เอ้ก ไข่</item>
+        <item>F ฟิช ปลา</item>
+        <item>G จิราฟ ยีราฟ</item>
+        <item>H ฮอซ ม้า</item>
+        <item>I อิ้ง น้ำหมึก</item>
+        <item>J จา โอ่ง</item>
+        <item>K คีย์ กุญแจ</item>
+        <item>L ไลออน สิงโต</item>
+        <item>M แม็ท เสื่อ</item>
+        <item>N เน็ท ตาข่าย</item>
+        <item>O อ็อกซ์ วัว</item>
+        <item>P พิก หมู</item>
+        <item>Q ควีน ราชินี</item>
+        <item>R แรบบิท กระต่าย</item>
+        <item>S สเน็ก งู</item>
+        <item>T ทรี ต้นไม้</item>
+        <item>U อัมเบลล่า ร่ม</item>
+        <item>V แวน รถตู้</item>
+        <item>W วาฬ ปลาวาฬ</item>
+        <item>X เอ็ก-เรย์ เอ็กเรย์</item>
+        <item>Y เยลโล่ สีเหลือง</item>
+        <item>Z ซีบลา ม้าลาย</item>
+    </string-array>
+</resources>

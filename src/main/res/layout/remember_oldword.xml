@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="คำศัพท์เก่า"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/word_eng_old"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="\n\nEnglish"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="\n\nEnglish" />
+
+    <TextView
+        android:id="@+id/word_read_old"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="\n\nคำอ่าน"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="\n\nคำอ่าน" />
+
+    <TextView
+        android:id="@+id/word_tha_old"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="\n\nคำแปล"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="\n\nคำแปล" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_old"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="กลับ"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Answer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="เฉลย"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/next_old"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="ต่อไป"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>

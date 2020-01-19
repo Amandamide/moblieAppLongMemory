@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/phase1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phase 1 คำอ่าน+คำแปล(จำ)"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:id="@+id/word_eng1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="\n\nEnglish"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="\n\nEnglish" />
+
+    <TextView
+        android:id="@+id/word_read"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="\n\nคำอ่าน"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="\n\nคำอ่าน" />
+
+    <TextView
+        android:id="@+id/word_tha"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="\n\nคำแปล"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="\n\nคำแปล" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ต่อไป"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</LinearLayout>
